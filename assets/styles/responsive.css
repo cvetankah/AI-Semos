@@ -1,0 +1,316 @@
+@media only screen and (max-width: 450px) {
+
+    .width-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .section {
+        padding-top: 40px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .AI_header img {
+        width: 180px;
+    }
+
+    .AI_header .menu_button {
+        display: none;
+    }
+    
+    .AI_header nav {
+        display: none;
+    }
+
+    .hero_background {
+        background-size: contain;
+        height: 500px;
+    }
+
+    .hero_background::before {
+        height: 500px;
+}
+
+    .hero_background .width-container {
+        flex-direction: column;
+    }
+
+    .hero_left {
+        max-width: 100%;
+    }
+
+    .hero_span_top {
+        font-size: 25px;
+    }
+
+    .hero_span_middle {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .hero_span_bottom {
+        font-size: 30px;
+    }
+
+    .hero_right {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    
+    .start_date {
+        width: 100%;
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .hero_buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero_buttons .button{
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .overview-top {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .overview-top-left {
+        width: 100%;
+    }
+
+    .overview-top-right {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .overview-top-right-title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .course_number {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .overview-boxes {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+    .box {
+        width: 100%;
+        /* flex-grow: 1; */
+        flex-basis: 48%;
+        margin-bottom: 20px;
+    }
+
+    .overview-middle {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .overview-middle-left {
+        width: 100%;
+    }
+
+    .overview-middle-right {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .overview-middle p {
+        line-height: 30px;
+    }
+
+    .overview-bottom {
+        flex-direction: column;
+    }
+
+    .overview-bottom img {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .overview-bottom img:last-of-type {
+        margin-right: 0;
+    }
+    
+
+    .why {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .why-left {
+        width: 100%;
+    }
+
+    .why-right {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .like-div {
+        flex-direction: column;
+    }
+
+    .like-buttons {
+        margin-bottom: 50px;
+    }
+
+    .course-outline-boxes {
+        padding: 0;
+    }
+
+    .course-outline-boxes li {
+        width: 100%;
+        margin-right: 10px;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .course-outline-boxes img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .blue-background-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .blue-background-buttons .white {
+        margin-bottom: 20px;
+    }
+
+    .courses-boxes {
+        width: 100%;
+        overflow: hidden;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .courses-boxes li {
+        width: 100%;
+        height: 300px;
+        margin: 20px 0;
+    }
+
+    .slider-controlls {
+        display: none;
+    }
+
+    .grey-background2 {
+        padding-bottom: 50px;
+        background-repeat: no-repeat;
+        background-image: none;
+    }  
+
+    .instructor-info {
+        flex-direction: column;
+    }
+
+    .instructor-info img {
+        margin: 0 auto 40px auto;
+    }
+
+    .students {
+        margin-top: 50px;
+    }
+
+    .students-boxes {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .students-boxes li {
+        width: 100%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .lecturers {
+        margin-bottom: 0;
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+    .lecturers li img {
+        margin: 0 auto 20px auto;
+    }
+
+    .lecturers li span.title {
+        margin-bottom: 40px;
+    }
+
+    .take-your-skills a {
+        width: 100%;
+    }
+
+    .news li {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .news li a {
+        flex-direction: column;
+    }
+
+    .news li img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+
+    .contact-info-rac {
+        width: 445px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .semos-logo-img {
+        width: 60%;
+        margin-top: 10px;
+    }
+    
+    .footer-nav-bar span {
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5px;
+        margin-right: 70px;
+    
+    }
+
+}
