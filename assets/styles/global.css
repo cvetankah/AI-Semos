@@ -50,7 +50,7 @@ html, body {
     color: #656565;
 }
 
-.ai-header {
+.site-header {
     width: 100%;
     position: absolute;
     padding: 30px 0;
@@ -58,11 +58,11 @@ html, body {
 }
 
 
-.ai-header img {
+.site-header img {
     margin-right: auto;
 }
 
-.ai-header div {
+.site-header div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,7 +81,7 @@ html, body {
         border-bottom: 2px solid #fff;
     }
 
-    .ai-header .menu-button {
+    .site-header .menu-button {
         display: none;
         z-index: 2;
         border: none;
